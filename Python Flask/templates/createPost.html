@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" href="{{ url_for('static',filename='css/postcreate.css') }}">
+	</head>
+<title>Create Post</title>
+<body>
+	<div class="container">
+		<div class="header">
+			<h1>Create Post</h1>
+		</div>
+		<div class="main">
+		<form action="/savePost" method="post" enctype="multipart/form-data">
+			<span>
+				<input type="file" name="image">
+
+			<p>Enter Post:</p><input type="text" placeholder="text"  name="message" >
+		</span><br>
+
+			<button>Upload</button>
+			<button  value="/" class="btn abc">Go Back</button>
+			</form>
+		</div>
+	</div>
+
+</div>
+
+	</body>
+</html>

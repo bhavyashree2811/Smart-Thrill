@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/homefile.css') }}">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+<form action="/saveRecord" method="post" style="max-width:500px;margin:auto">
+  <h2>Register Form</h2>
+  <div class="input-container">
+    <input class="input-field" type="text" placeholder="Username" name="uname">
+  </div>
+
+  <div class="input-container">
+    <input class="input-field" type="email" placeholder="Email" name="email">
+  </div>
+  <div class="input-container">
+			    <input class="input-field" type="text" placeholder="First name" name="firstname" >
+  </div>
+  <div class="input-container">
+			    <input class="input-field" type="text" placeholder="Second Name" name="secondname">
+  </div>
+  <div class="input-container">
+			    <input class="input-field" type="number" placeholder="contactno" name="contact" >
+  </div>
+
+  <div class="input-container">
+                <input class="input-field" type="date" placeholder="DateofBirth" name="dob">
+  </div>
+
+  <div class="input-container">
+                <input class="input-field" type="text" placeholder="city" name="city">
+  </div>
+  <div class="input-container">
+                <input class="input-field" type="text" placeholder="gender" name="gender">
+  </div>
+  <div class="input-container">
+			    <input class="input-field" type="number" placeholder="age" name="Age">
+  </div>
+    <div class="input-container">
+                <input class="input-field" type="password" placeholder="Password" name="pname">
+    </div>
+  <div class="input-container">
+                <input class="input-field" type="password" placeholder="confirmpassword" name="password">
+  </div>
+  </div>
+ <br>
+
+  <button type="submit" class="btn">Register</button>
+    <button  value="/" class="btn abc">Go Back</button>
+</form>
+
+</body>
+</html>

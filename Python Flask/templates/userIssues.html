@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <link rel="stylesheet" href="{{ url_for('static',filename='css/main.css') }}">
+    <meta charset="UTF-8">
+    <title>List</title>
+</head>
+<body>
+
+<h3>User Issues</h3>
+<table border="5">
+    <thead>
+         <td>Issue ID</td>
+        <td>User Name</td>
+        <td>Query</td>
+
+
+    </thead>
+    {% for x in rows %}
+        <tr>
+            <td>{{x["id"]}}</td>
+            <td>{{x["name"]}}</td>
+            <td>{{x["query"]}}</td>
+
+        </tr>
+    {% endfor %}
+</table>
+<br><br>
+
+<a href="/toAdmin"> Go Back</a>
+</body>
+</html>

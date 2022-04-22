@@ -1,0 +1,23 @@
+<html>
+    <head>
+    <title>Forgot password</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/change.css') }}">
+    </head>
+    <body >
+        <form action="/change" method="post">
+            <div>
+                <label>Enter your EmailId:</label><br/>
+                <input type="email"  name="email" required><br/>
+                <label>New Password:</label><br/>
+                <input type ="password"  name="pname" required><br/>
+                <label>Confirm New password:</label><br/>
+                <input type="password"  name="Conname" required><br/><br/>
+                <button type="submit">Submit</button><br/>
+                <input type="checkbox" checked="checked">Remember me<br/>
+                <br><br>
+
+            </div>
+        </form>
+ <a href="/tohome"> Go Back</a>
+    </body>
+</html>

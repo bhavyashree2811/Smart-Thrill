@@ -1,0 +1,33 @@
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/main.css') }}">
+	</head>
+<title>Login Page</title>
+<body>
+	<div class="container">
+		<div class="header">
+			<h1>Smart Thrill</h1>
+		</div>
+		<div class="main">
+		<form action="/check" method="post">
+			<span>
+
+			<input type="text" placeholder="Username"  name="user">
+		</span><br>
+		<span>
+			<i class="fa-solid fa-lock"></i>
+			<input type="password" placeholder="Password" name="pname" required>
+		</span><br>
+			<button>Login</button>
+        <div class="signup_link">
+			<p>Don't have an account?<a href="/register">Signup</a></p>
+        </div>
+			<div class="passw">
+				 <a href="/forgot">Forgot Password?</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+	</body>
+</html>

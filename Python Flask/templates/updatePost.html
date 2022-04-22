@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" href="{{ url_for('static',filename='css/postcreate.css') }}">
+</head>
+<title>Update Post</title>
+<body>
+	<div class="container">
+		<div class="header">
+			<h1>Update Post</h1>
+		</div>
+		<div class="main">
+		<form action="/update"  method="post"s>
+			<span>
+            <p>Enter Post ID:</p><input class="input-field" type="text" placeholdser="Username" name="postid"><br> <br>
+			<br><p>Enter Text:</p><input type="text" placeholder="text"  name="message" >
+		</span><br>
+				<button>Upload</button>
+				<button  value="/toAdmin" class="btn abc">Go Back</button>
+
+			</form>
+		</div>
+	</div>
+
+</div>
+
+	</body>
+</html>

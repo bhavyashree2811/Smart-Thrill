@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+    <head>
+         <link rel="stylesheet" href="{{ url_for('static',filename='css/adhome.css') }}">
+        <title>Authenticate</title>
+
+    </head>
+    <body>
+        <h1><center>Dashboard</center></h1>
+
+        <figure>
+            <div class="row">
+                <div class="clm">
+            <br> <br><br> <br>
+        <img src="./static/css/updateposts.png" alt="Flying Kites" width="300" height="300">
+        <a href="/toPost">Update Posts.</a>
+        </div>   <br> <br> <br> <br>
+        <div class="clm">
+        <img src="./static/css/deleteposts.png" alt="Cloudy Sky" width="300" height="300">
+        <a href="/delPost">Delete Posts.</a>
+        </div>
+<!--            <br>    <br> <br>-->
+            <div class="clm">
+            <img src="./static/css/update_ppl.jpg" alt="Balloons" width="300" height="300">
+           <a href="/delUser">Delete Users.</a>
+            </div><br>
+        <div class="clm">
+        <img src="./static/css/deleteuser.png" alt="Balloons" width="300" height="300">
+        <a href="/showIssue">User Issues.</a>
+        </div>
+<!--        <div class="clm">-->
+<!--                <br> <br> <br> <br>-->
+<!--        <img src="./static/css/updateposts.png" alt="Balloons" width="300" height="300">-->
+<!--        <a href="/showIssue">User Issues.</a>-->
+<!--        </div>-->
+                  <label for="create-post" class="btn btn-primary"><a href="/">LogOut</a></label>
+    </figure>
+
+    </body>
+</html>
