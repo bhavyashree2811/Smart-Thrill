@@ -1,0 +1,39 @@
+
+            body {
+        background-image: url('ADMINDashboard.png');
+        background-repeat: no-repeat;
+        background-size: 1700px;
+
+            }
+            *{
+                box-sizing: border-box;
+                border-radius: 35px;
+            }
+            .clm{
+                float: left;
+                width:33.73%;
+                padding:3px;
+
+            }
+   h1,a{
+    color:white;
+   }
+
+
+.btn {
+
+     line-height: 12px;
+     width: 60px;
+     font-size: 15pt;
+     font-family: tahoma;
+     margin-top: 10px;
+     margin-right: 10px;
+     position:absolute;
+     top:0;
+     right:0;
+ }
+*/
+   .btn-primary {
+        background: var(--color) ;
+        color: white;
+    }

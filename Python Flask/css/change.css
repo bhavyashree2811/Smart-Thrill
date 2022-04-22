@@ -1,0 +1,30 @@
+
+        *{
+            color:yellow;
+            font-size: 20px;
+        }
+
+        body {
+        background: url('Blog-image.jpg');
+        background-repeat: no-repeat;
+        background-size: 1800px;
+            }
+        form{
+            margin-top:80px;s
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            text-shadow: 0 0 5 black;
+
+        }
+        input{
+            border-radius: 2rem;
+        }
+        input:hover{
+            border-color: yellow;
+            box-shadow: 0 0 15 black;
+        }
+        button{
+            color:black;
+        }
+

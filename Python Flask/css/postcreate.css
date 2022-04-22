@@ -1,27 +1,30 @@
-body {
+
+		body {
 			font-family: sans-serif;
-			background: url('pic.jpg');
+			background: url('shapes.jpg');
 			background-repeat: no-repeat;
 			overflow: hidden;
 			background-size: cover;
 
 		}
-
+           p{
+           color:white;
+           }
 		.container {
-			width: 380px;
+			width: 450px;
 			margin: 10% auto;
-			border-radius: 25px;
+			border-radius: 100px;
 			background-color: rgba(0, 0, 0, 0.2);
-			box-shadow: 0 0 17px #333;
+			box-shadow: 0 0 25px #333;
 		}
 		.header {
 			text-align: center;
 			padding-top: 75px;
 		}
 		.header h1 {
-			color: #333;
+			color: white;
 			font-size: 45px;
-			margin-bottom: 80px;
+			margin-bottom: 110px;
 
 		}
 
